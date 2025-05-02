@@ -30,7 +30,7 @@ jobs:
 
       - run: docker images
 
-      - run: docker run --name api-post-LA -p 3030:3030 -d pedrogarpad/postgres-restapi:${{github.sha}}
+      - run: docker run --name api-post-LA -p 8000:8000 -d pedrogarpad/postgres-restapi:${{github.sha}}
 
       - run: docker ps
 
