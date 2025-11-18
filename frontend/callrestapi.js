@@ -1,4 +1,4 @@
-const urlBase = "http://localhost:8000/api/users";
+const urlBase = "https://postgres-restapi.onrender.com/api/users";
 
 // Función para crear un nuevo usuario
 function postUser() {
